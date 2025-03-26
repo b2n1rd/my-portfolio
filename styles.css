@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* About Me Section */
+#about {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.2rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
